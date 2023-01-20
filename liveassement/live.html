@@ -1,0 +1,133 @@
+<html lang="en">
+  <head>
+    <title>liveassement</title>
+  </head>
+  <body>
+    <h2>HTML Assement from Prepbytes</h2>
+    <hr />
+    <p>Image use from Absolute path</p>
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVW1YVrliBr5tbY9vbnzfiRHeT2okBAOsQnx3YHUYzag&s"
+      width="300px"
+      height="300px"
+    />
+    <p>Image used from relative path</p>
+    <img
+      src="./istockphoto-1394440950-170667a.jpg"
+      width="400"
+      height="300"
+    /><br />
+    <a href="https://www.prepbytes.com/">Link with same tab</a><br />
+
+    <a href="https://www.prepbytes.com/" target="_blank"
+      >Link with another tab</a
+    >
+    <hr />
+    <h2>List</h2>
+    <ul>
+      <li>Mobile Development</li>
+      <li>Web Development</li>
+      <ul type="disc">
+        <li>react</li>
+        <li>angular</li>
+        <li>Vue</li>
+      </ul>
+    </ul>
+    <ul>
+      <li>Cloud server</li>
+    </ul>
+    <br />
+    <hr />
+    <h2 align="center">Form</h2>
+    <form method="get">
+      <label for="fname">Name</label>
+      <input
+        required
+        type="text"
+        name="fullname"
+        value=""
+        placeholder="name"
+        id="fname"
+      />
+      <br />
+
+      <br />
+      <label for="email">Email Address</label>
+      <input
+        required
+        type="text"
+        name="emailid"
+        value=""
+        placeholder="email"
+        id="email"
+      />
+      <br />
+      <label for="password">Password</label>
+      <input
+        required
+        type="text"
+        value=""
+        id="password"
+        placeholder="password"
+      />
+      <br />
+
+      <label>Phone No</label>
+      <input required type="text" value="" />
+      <br />
+      <label>Language:</label><br />
+
+      <input type="radio" name="language" value="React" id="language" />
+      <label for="language">React</label>
+      <br />
+      <input type="radio" name="language" value="Angular" id="language" />
+      <label for="language">Angular</label>
+      <br />
+      <input type="radio" name="language" value="Vue" id="language" />
+      <label for="language">Vue</label>
+      <br />
+      <label>Course:</label><br />
+      <input type="checkbox" name="course" value="React" id="course" />
+      <label for="course">MERN</label>
+      <br />
+      <input type="checkbox" name="course" value="MEAN" id="course" />
+      <label for="course">MEAN</label>
+      <br />
+      <input type="checkbox" name="course" value="Vue" id="course" />
+      <label for="course">MEVN</label>
+      <br />
+      <label>Field</label><br />
+      <select>
+        <option>FontEnd</option>
+        <option>BackEnd</option>
+      </select>
+      <br />
+      <input type="submit" />
+
+      <br />
+    </form>
+    <hr />
+    <h2>Table</h2>
+    <table align="center" border="2">
+      <tr>
+        <th>Course</th>
+        <th style="background-color: brown">Course Detail</th>
+        <th>Date of joining</th>
+      </tr>
+      <tr>
+        <td>Elevation Academy</td>
+        <td>1234567890</td>
+        <td>2 Dec 2022</td>
+      </tr>
+      <tr>
+        <td style="background-color: brown">Elevation Academy</td>
+        <td rowspan="2">1234567890</td>
+        <td>2 Dec 2022</td>
+      </tr>
+      <tr>
+        <td>Elevation Academy</td>
+        <td style="background-color: brown">2 Dec 2022</td>
+      </tr>
+    </table>
+  </body>
+</html>
